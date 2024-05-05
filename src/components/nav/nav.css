@@ -1,5 +1,4 @@
 nav {
-  border: solid;
   width: 100%;
 }
 
@@ -69,7 +68,11 @@ li {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-  nav {
+  html,body{
+    overflow-x: hidden;
+  }
+  
+    nav {
     /* border: solid 2px red; */
     width: 100%;
     position: relative;
@@ -86,12 +89,12 @@ li {
     height: 100vh;
     /* display: flex; */
     position: absolute;
-    transition: ease-in-out 200ms;
+    transition: ease-in-out 450ms;
   }
 
   .navitems {
     display: flex;
-    border: solid blue;
+    /* border: solid blue; */
     height: 400px;
     margin-top: 60px;
     justify-content: center;
@@ -99,16 +102,16 @@ li {
   }
 
   .cancel {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
-    font-size: 1.7em;
     color: #000;
     position: absolute;
-    top: 13px;
+    top: 10px;
     left: 10px;
   }
 
   .cancel > label {
+    font-size: 2em;
     display: block;
 
 
@@ -146,7 +149,7 @@ li {
     right: 0;
     display: block;
     margin-right: 10px;
-    font-size: 1.6em;
+    font-size: 2em;
   }
 
   .nav > input {
