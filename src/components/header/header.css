@@ -1,0 +1,44 @@
+#header_cont{
+    background-color: rgb(87, 87, 87);
+    padding-block: 40px;
+    position: relative;
+}
+
+.header_cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: #fff;
+    position: relative;
+}
+
+.sideA{
+    width: 30%;
+    text-align: start;
+    text-transform: capitalize;
+    padding-top: 30px;
+    position: relative;
+}
+
+.sideA>h3{
+    font-size: 1.4em;
+    margin-bottom: -30px;
+    
+}
+.sideA>h1{
+    font-size: 4.5em;
+    
+}
+.sideA>p{
+    font-size: 1.2em;
+}
+
+
+
+.sideB{
+    width: 80%;
+}
+
+.sideB>img{
+    width: 100%;
+}
