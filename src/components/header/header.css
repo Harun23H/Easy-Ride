@@ -84,13 +84,13 @@
 
   .contentInfo > h3 {
     margin-top: -10px;
-    font-size: 3.7em;
+    font-size: 3.6em;
     font-weight: 100;
     text-transform: capitalize;
   }
 
   .contentInfo > h1 {
-    font-size: 3.9em;
+    font-size: 3em;
     font-weight: 500;
     margin-top: -20px;
     text-transform: capitalize;
@@ -98,7 +98,7 @@
 
   .contentInfo > p {
     margin-top: -10px;
-    font-size: 1.9em;
+    font-size: 1.5em;
     font-weight: 100;
     text-transform: capitalize;
   }
