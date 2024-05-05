@@ -6,7 +6,7 @@ const Nav = () =>{
                 
             <div className="logo">
                 <img src={logo} alt="logo" />
-                <p>Easy Drop</p>
+                <p>Easy Ride</p>
             </div>
             <label for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle" />

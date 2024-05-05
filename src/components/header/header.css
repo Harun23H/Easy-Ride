@@ -1,6 +1,7 @@
 #header_cont{
+    padding-top: 100px;
     background-color: rgb(87, 87, 87);
-    padding-block: 40px;
+    /* padding-block: 40px; */
     position: relative;
 }
 
