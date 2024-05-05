@@ -3,7 +3,7 @@ import background from "../../Assets/bgvide.mp4";
 
 function Header() {
   return (
-    <section id="header_cont">
+    <header id="header_cont">
       <div className="header_cont">
         <div className="sideA">
           <h3>welcome to easy drop</h3>
@@ -31,7 +31,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 }
 
