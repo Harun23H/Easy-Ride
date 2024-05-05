@@ -67,7 +67,7 @@ li {
 }
 
 .nav > button,
-.sideA > button {
+.sideA > button, .content>button {
   background-color: #f5cf44;
   color: #fff;
   border: none;
@@ -92,17 +92,16 @@ li {
     left: 100%;
     top: 0px;
     width: 100%;
-    background-color: #ece2e2;
+    background-color: #f8dd7d;
     color: #000;
     height: 100vh;
     position: absolute;
-    transition: ease-in-out 450ms;
+    transition:ease 700ms;
   }
 
   .navitems {
     display: flex;
-    height: 400px;
-    margin-top: 60px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
   }
@@ -122,9 +121,9 @@ li {
 
   }
 
-  .cancel > #toggle:checked + .nav-right {
+  /* .cancel > #toggle:checked + .navRight {
     right: 100%;
-  }
+  } */
 
   #toggle:checked + .navRight {
     left: 0;
@@ -133,14 +132,16 @@ li {
 
   ul,
   li {
-    width: 100%;
     font-size: 1.2em;
-    gap: 30px;
-    font-weight: 100;
-    display: flex;
+    gap: 35px;
     flex-direction: column;
     margin: 0 0 0 -22px;
-    text-transform: capitalize;
+  }
+
+
+  li:hover{
+    transform: scale(1.5);
+    transition: ease-in-out 600ms;
   }
 
   .nav > label {
