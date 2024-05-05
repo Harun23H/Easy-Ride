@@ -65,12 +65,10 @@
 }
 
 .content {
-  padding-bottom: 22px;
   margin-top: 80px;
   width: 100%;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  /* right: 0; */
   left: -1px;
   top: 0;
   background-origin: 0;
