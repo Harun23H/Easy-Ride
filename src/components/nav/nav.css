@@ -67,7 +67,7 @@ li {
 }
 
 .nav > button,
-.sideA > button, .content>button {
+.sideA > button,  .contentInfo>button {
   background-color: #f5cf44;
   color: #fff;
   border: none;
