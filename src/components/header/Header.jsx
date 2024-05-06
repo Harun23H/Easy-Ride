@@ -1,5 +1,5 @@
 import cab from "../../Assets/taxiHeader.png";
-import background from "../../Assets/bgvide.mp4";
+// import background from "../../Assets/bgvide.mp4";
 
 function Header() {
   return (
@@ -19,17 +19,13 @@ function Header() {
         </div>
       </div>
       <div className="headCont02">
-        <video autoPlay muted loop id="background">
+        {/* <video autoPlay muted loop id="background">
           <source src={background} type="video/mp4" />
-        </video>
-        <div className="content">
-          <div className="contentInfo">
+        </video> */}
             <h3>welcome to easy drop</h3>
             <h1>your journey your way!</h1>
             <p>Adipisicing elit. Error sapiente voluptas placeat? nesciunt</p>
             <button>book now</button>
-          </div>
-        </div>
       </div>
     </header>
   );

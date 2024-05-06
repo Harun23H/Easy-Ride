@@ -51,52 +51,37 @@
     display: none;
   }
 
-  .headCont02 { 
+  .headCont02 {
     display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../Assets/Cabs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    position: relative;
-  }
-
-  #background {
- min-width: none;
- position: fixed;
-  min-height: 100%;
-    left: 0;
-  }
-
-  .content {
+    color: #fff;
     display: flex;
+    flex-direction: column;
+    padding-top: 100px;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    position: fixed;
-    background: #00000080;
-    left: 0;
-    top: 0;
-    height: 100%;
-    color: #fff;
+    padding-bottom: 15px;
   }
 
-  .contentInfo{
-    padding: 0 10px;
-    margin-top: 60px;
-  }
-
-  .contentInfo > h3 {
+  .headCont02 > h3 {
     margin-top: -10px;
     font-size: 3.6em;
     font-weight: 100;
     text-transform: capitalize;
   }
 
-  .contentInfo > h1 {
+  .headCont02 > h1 {
     font-size: 3em;
     font-weight: 500;
     margin-top: -20px;
     text-transform: capitalize;
   }
 
-  .contentInfo > p {
+  .headCont02 > p {
     margin-top: -10px;
     font-size: 1.5em;
     font-weight: 100;
