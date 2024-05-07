@@ -1,6 +1,7 @@
 #sectionTwo {
   border: solid;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .sectionTwo {
@@ -47,7 +48,18 @@
 .card5 > img,
 .card6 > img {
   width: 110px;
+  transition:transform 800ms;
 }
+
+.card > img:hover,
+.card2 > img:hover,
+.card3 > img:hover,
+.card4 > img:hover,
+.card5 > img:hover,
+.card6 > img:hover {
+  transform: rotate(10deg);
+}
+
 
 .card {
   border: solid #00000015 2px;
@@ -71,33 +83,33 @@
     padding-bottom: 20px;
   }
 
-.sectionTwo {
+  .sectionTwo {
     width: 100%;
     margin: unset;
   }
-  
+
   .vehicleTT {
     width: 100%;
   }
-  
+
   .vehicleTT > img {
     width: 80px;
   }
-  
+
   .vehicleTT > h1 {
     margin-top: -13px;
     font-size: 1.8em;
     font-weight: 400;
     text-transform: uppercase;
   }
-  
+
   .vehicleTT > h4 {
     margin-top: -30px;
     font-size: 1em;
     font-weight: 400;
     text-transform: uppercase;
   }
-  
+
   .vehicleCont {
     display: grid;
     column-gap: 30px;
@@ -105,24 +117,15 @@
     grid-template-columns: auto auto;
     width: 100%;
   }
-  
-  .card > img,
-  .card2 > img,
-  .card3 > img,
-  .card4 > img,
-  .card5 > img,
-  .card6 > img {
-    width: 110px;
-  }
-  
+
+
   .card {
     padding: 15px;
   }
-  
+
   .card > span {
     margin: auto;
     font-size: 1.1em;
     font-weight: 400;
   }
-  
 }
