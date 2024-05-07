@@ -15,30 +15,151 @@
                     <h4>types</h4>
                 </div>
                 <div className="vehicleCont">
+                    <div className="showInfo">
                     <div className="card">
                         <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="showInfo">
                     <div className="card">
-                        <img src={car2} alt="car" />
+                        <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="showInfo">
                     <div className="card">
-                        <img src={car3} alt="car" />
+                        <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="showInfo">
                     <div className="card">
-                        <img src={car4} alt="car" />
+                        <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="showInfo">
                     <div className="card">
-                        <img src={car5} alt="car" />
+                        <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="showInfo">
                     <div className="card">
-                        <img src={car6} alt="car" />
+                        <img src={car} alt="car" />
                         <span>Classic</span>
                     </div>
+                    <div className="carDetails">
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                        <div className="Fline">
+                            <p>Best Rate</p>
+                            <span>$2</span>
+                        </div>
+                    </div>
+                    </div>
+
                 </div>
             </div>
 

@@ -1,6 +1,11 @@
 #header_cont {
-  background-color: rgb(87, 87, 87);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../Assets/street\ cab.png);
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-block: 20px;
 }
 
 .header_cont {
@@ -23,15 +28,80 @@
   position: relative;
 }
 
-.sideA > h3 {
-  font-size: 1.4em;
-  margin-bottom: -30px;
+.booking {
+  width: 440px;
+  background-color: #fff;
 }
-.sideA > h1 {
-  font-size: 4.5em;
+
+.headText {
+  width: 100%;
+  background-color: #faca72;
+  display: flex;
+  justify-content: center;
 }
-.sideA > p {
-  font-size: 1.2em;
+
+.headText > h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+form {
+  padding-block: 60px;
+  width: 75%;
+  margin: auto;
+}
+
+.formInfo {
+  display: flex;
+  padding: 5px 0;
+  flex-direction: column;
+}
+
+.starting {
+  border: solid 2px #00000018;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px 0 10px 40px;
+  align-items: center;
+  gap: 5px;
+  margin-block: 10px;
+}
+
+.starting > label {
+  padding: 0 5px;
+  color: #000;
+}
+
+.starting > input {
+  display: block;
+  width: 70%;
+  outline: none;
+  padding: 10px 0;
+  border: none;
+}
+
+#select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+}
+
+.starting > input::placeholder {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #000000b4;
+}
+
+.formInfo > button {
+  border: solid;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .sideB {
@@ -48,43 +118,71 @@
   }
 
   .header_cont {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  
+  .headCont02 {
     display: none;
   }
-
-  .headCont02 {
-    display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../Assets/Cabs.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+  .sideA {
     width: 100%;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
+    text-align: start;
+    text-transform: capitalize;
     padding-top: 100px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 15px;
+    position: relative;
+  }
+  
+  .booking {
+    width: 350px;
+    margin: auto;
+    background-color: #ffffffba;
+  }
+  
+  .headText {
+    background-color: #fada72c4;
+  }
+  
+  .headText > h1 {
+    font-size: 1.3em;
+    opacity: 1;
+  }
+  
+  form {
+    padding-block: 5px;
+  }
+  
+  .formInfo {
+    padding: 2px 0;
+  }
+  
+  .starting {
+    padding: 8px 0 8px 30px;
+    margin-block: 9px;
+    border: solid #0000003c;
   }
 
-  .headCont02 > h3 {
-    margin-top: -10px;
-    font-size: 3.6em;
-    font-weight: 100;
-    text-transform: capitalize;
+  .starting:focus-within{
+    border: solid #000000;
   }
 
-  .headCont02 > h1 {
-    font-size: 3em;
-    font-weight: 500;
-    margin-top: -20px;
-    text-transform: capitalize;
+  .starting > input {
+    background-color: transparent;
   }
-
-  .headCont02 > p {
-    margin-top: -10px;
-    font-size: 1.5em;
-    font-weight: 100;
-    text-transform: capitalize;
+  
+  #select {
+    background-color: transparent;
   }
+  
+  .starting > input::placeholder {
+    font-size: 0.75em;
+  }
+  
+  .formInfo > button {
+    margin-block: 20px;
+    border: none;
+  }
+  
 }
