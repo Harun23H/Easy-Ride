@@ -16,17 +16,17 @@ export const Benefit = () =>{
                     </div>
                         <div className="infoWrapper">
                         <div className="BlineHeader">
-                            <p>fixed price</p>
+                            <p>No Fee & Tips</p>
                             <span>G</span>
                         </div>
-                        <p>Fixed fare set in every taximeter as the main tariff</p>
+                        <p>We guarantee fixed price and you should not pay tips</p>
                     </div>
                         <div className="infoWrapper">
                         <div className="BlineHeader">
-                            <p>fixed price</p>
+                            <p>Luxury cars</p>
                             <span>G</span>
                         </div>
-                        <p>Fixed fare set in every taximeter as the main tariff</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                     </div>
                         </div>
                     <div className="info01">
@@ -35,24 +35,24 @@ export const Benefit = () =>{
                     <div className="info03">
                         <div className="infoWrapper3">
                         <div className="BlineHeader3">
-                            <p>fixed price</p>
+                            <p>fFull Satisfaction</p>
                             <span>G</span>
                         </div>
-                        <p>Fixed fare set in every taximeter as the main tariff</p>
+                        <p>Have lots of standing customers and high ratings</p>
                         </div>
                         <div className="infoWrapper3">
                         <div className="BlineHeader3">
-                            <p>fixed price</p>
+                            <p>Nationwide Ride</p>
                             <span>G</span>
                         </div>
-                        <p>Fixed fare set in every taximeter as the main tariff</p>
+                        <p>Our application is the easiest way to book a taxi</p>
                         </div>
                         <div className="infoWrapper3">
                         <div className="BlineHeader3">
-                            <p>fixed price</p>
+                            <p>No-smoking & clean</p>
                             <span>G</span>
                         </div>
-                        <p>Fixed fare set in every taximeter as the main tariff</p>
+                        <p>Stet clita kasd gubergren, no sea takimata sanctus est</p>
                         </div>
                     </div>
                 </div>
