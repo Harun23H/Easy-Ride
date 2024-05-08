@@ -1,0 +1,179 @@
+#benefit {
+  border: solid;
+  width: 100%;
+}
+
+.benefit {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.benefit > small {
+  font-size: 1.8em;
+  color: rgb(255, 183, 0);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.benefit > h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+.benefitCont {
+  margin-top: -100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+.info01,
+.info03 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infoWrapper,
+.infoWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.infoWrapper3 {
+  align-items: start;
+}
+
+.BlineHeader3 {
+  flex-direction: row-reverse;
+}
+
+.BlineHeader,
+.BlineHeader3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.BlineHeader > span,
+.BlineHeader3 > span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #ffb300ae;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.BlineHeader > p,
+.BlineHeader3 > p {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.infoWrapper > p,
+.infoWrapper3 > p {
+  text-align: end;
+  width: 350px;
+  font-weight: 600;
+  padding-right: 62px;
+  margin-top: 0px;
+}
+
+.infoWrapper3 > p {
+  text-align: start;
+  padding-left: 62px;
+}
+
+.info01 > img {
+  width: 500px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  
+
+#benefit {
+    width: 100%;
+  }
+  
+  .benefit {
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+  }
+  
+  .benefit > small {
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  
+  .benefit > h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -2px;
+  }
+  
+  .benefitCont {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .info01 {
+    padding: 0 15px;
+  }
+
+  .info01,
+.info03 {
+  gap: 10px;
+}
+  
+  .info03{
+      margin-top: -80px;
+      padding: 0 15px;
+  }
+  
+  .infoWrapper {
+    border-bottom: solid 1px #0000001c;
+    align-items: start;
+  }
+
+
+  .infoWrapper3{
+    border-bottom: solid 1px #0000001c;
+  }
+  
+  .BlineHeader3 {
+    flex-direction: row-reverse;
+  }
+  
+  .BlineHeader {
+    flex-direction: row-reverse;
+  }
+  
+  .BlineHeader > p,
+  .BlineHeader3 > p {
+    font-size: .9em;
+  }
+  
+  .infoWrapper > p,
+  .infoWrapper3 > p {
+    text-align: start;
+    width: 300px;
+    font-size: 0.8em;
+    padding-left: 62px;
+  }
+  
+  .info01 > img {
+    width: 350px;
+    display: flex;
+  }
+  
+      
+}

@@ -7,6 +7,8 @@ import { SectionTwo } from "./components/section-two/SectionTwo";
 import "./components/section-two/sectionTwo.css";
 import GetApp from "./components/getApp/GetApp";
 import "./components/getApp/getApp.css"
+import { Benefit } from "./components/benefit/Benefit";
+import "./components/benefit/benefit.css"
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
       <Header />
       <SectionTwo />
       <GetApp />
+      <Benefit/>
     </div>
   );
 }

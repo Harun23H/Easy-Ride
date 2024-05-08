@@ -9,6 +9,7 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  flex-direction: column;
 }
 
 .getApp {
@@ -24,10 +25,6 @@
     margin: auto;
 }
 
-
-.div01{
-    /* border: solid; */
-}
 .div01>small{
     text-transform: uppercase;
     color: #ffcc00;
@@ -49,6 +46,7 @@
 
 .div02{
     display: flex;
+    gap:10px;
     flex-direction: column;
 }
 
@@ -73,6 +71,16 @@
 
 .sect02>img{
     width: 700px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download>img{
+    width: 250px;
 }
 
 @media only screen and (min-width:320px) and (max-width:600px){
@@ -115,4 +123,22 @@
       .sect02>img{
           width: 600px;
 }
+
+
+.download{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.download>img{
+    width: 140px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
 }

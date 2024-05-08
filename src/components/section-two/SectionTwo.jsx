@@ -1,10 +1,5 @@
  import pointer from '../../Assets/sectionTwoImage.png'
  import car from '../../Assets/luxuryblueCar.png'
- import car2 from '../../Assets/blueCar.png'
- import car3 from '../../Assets/redCar.png'
- import car4 from '../../Assets/luxuryblueCar.png'
- import car5 from '../../Assets/blueCar.png'
- import car6 from '../../Assets/luxuryblueCar.png'
  export function SectionTwo(){
     return(
         <section id="sectionTwo">

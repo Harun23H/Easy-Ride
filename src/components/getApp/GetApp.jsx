@@ -1,4 +1,7 @@
 import mobile from '../../Assets/mobile.png'
+import Dimage from '../../Assets/apple.png'
+import Dimage2 from '../../Assets/google.png'
+import Dimage3 from '../../Assets/window.png'
 const GetApp = () => {
   return (
     <section id="getApp">
@@ -30,6 +33,12 @@ const GetApp = () => {
         <div className="sect02">
             <img src={mobile} alt="mobile" />
         </div>
+      </div>
+
+      <div className="download">
+        <img src={Dimage} alt="ios" />
+        <img src={Dimage2} alt="android" />
+        <img src={Dimage3} alt="window" />
       </div>
     </section>
   );
