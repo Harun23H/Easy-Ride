@@ -1,14 +1,13 @@
 import "./App.css";
-import "./components/nav/nav.css";
 import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
-import "./components/header/header.css";
 import { SectionTwo } from "./components/section-two/SectionTwo";
-import "./components/section-two/sectionTwo.css";
-import GetApp from "./components/getApp/GetApp";
-import "./components/getApp/getApp.css"
 import { Benefit } from "./components/benefit/Benefit";
-import "./components/benefit/benefit.css"
+import GetApp from "./components/appDownloader/GetApp";
+import Newletters from "./components/newletters/Newletters";
+import HireD from "./components/hireD/HireD";
+
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +16,8 @@ function App() {
       <SectionTwo />
       <GetApp />
       <Benefit/>
+      <Newletters />
+      <HireD />
     </div>
   );
 }

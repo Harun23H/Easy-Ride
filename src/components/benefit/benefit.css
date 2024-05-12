@@ -1,5 +1,4 @@
 #benefit {
-  border: solid;
   width: 100%;
 }
 
@@ -10,6 +9,8 @@
 }
 
 .benefit > small {
+  display: flex;
+  justify-content: center;
   font-size: 1.8em;
   color: rgb(255, 183, 0);
   font-weight: 300;
@@ -17,6 +18,7 @@
 }
 
 .benefit > h1 {
+  text-align: center;
   font-size: 4em;
   text-transform: uppercase;
   margin-top: -5px;
@@ -96,84 +98,82 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-  
-
-#benefit {
+  #benefit {
     width: 100%;
   }
-  
+
   .benefit {
     width: 100%;
     margin: auto;
     padding-top: 60px;
   }
-  
+
   .benefit > small {
     font-size: 1.3em;
     font-weight: 400;
   }
-  
+
   .benefit > h1 {
     font-size: 2em;
     text-transform: uppercase;
-    margin-top: -2px;
+    margin-bottom: 20px;
   }
-  
+
   .benefitCont {
     margin-top: 0px;
     display: grid;
     grid-template-columns: auto;
   }
-  
+
   .info01 {
     padding: 0 15px;
   }
 
   .info01,
-.info03 {
-  gap: 10px;
-}
-  
-  .info03{
-      margin-top: -80px;
-      padding: 0 15px;
+  .info03 {
+    gap: 10px;
   }
-  
+
+  .info03 {
+    margin-top: -80px;
+    padding: 0 15px;
+  }
+
   .infoWrapper {
     border-bottom: solid 1px #0000001c;
+    padding-bottom: 8px;
     align-items: start;
   }
 
-
-  .infoWrapper3{
+  .infoWrapper3 {
+    padding-bottom: 8px;
     border-bottom: solid 1px #0000001c;
   }
-  
+
   .BlineHeader3 {
     flex-direction: row-reverse;
   }
-  
+
   .BlineHeader {
     flex-direction: row-reverse;
   }
-  
+
   .BlineHeader > p,
   .BlineHeader3 > p {
-    font-size: .9em;
+    font-size: 1em;
   }
-  
+
   .infoWrapper > p,
   .infoWrapper3 > p {
     text-align: start;
-    width: 300px;
-    font-size: 0.8em;
-    padding-left: 62px;
+    width: 100%;
+    font-size: 0.79em;
+    opacity: .7;
+    padding-left: 50px;
   }
-  
+
   .info01 > img {
     width: 350px;
     display: flex;
   }
-  
-      
 }

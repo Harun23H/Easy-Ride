@@ -16,6 +16,7 @@
   width: 80%;
   color: #fff;
   display: flex;
+  margin: auto;
 }
 
 .sect01{
@@ -39,14 +40,15 @@
 }
 
 .sect01>p{
-    margin-top: -2px;
+    margin-block: 10px;
     font-size: .8em;
     text-transform: capitalize;
 }
 
 .div02{
+    margin: 15px 0;
     display: flex;
-    gap:10px;
+    gap:15px;
     flex-direction: column;
 }
 
@@ -62,7 +64,13 @@
     width: 50px;
     height: 50px;
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 1.5em;
 }
+
 
 .line01>p{
     text-transform: capitalize;
@@ -70,7 +78,7 @@
 }
 
 .sect02>img{
-    width: 700px;
+    width: 750px;
 }
 
 .download{

@@ -2,6 +2,13 @@ import mobile from '../../Assets/mobile.png'
 import Dimage from '../../Assets/apple.png'
 import Dimage2 from '../../Assets/google.png'
 import Dimage3 from '../../Assets/window.png'
+import { GoLightBulb } from "react-icons/go";
+import { IoPricetagsOutline } from "react-icons/io5";
+import { CiLocationOn } from "react-icons/ci";
+import "./getApp.css"
+
+
+
 const GetApp = () => {
   return (
     <section id="getApp">
@@ -17,15 +24,15 @@ const GetApp = () => {
           </p>
           <div className="div02">
             <div className="line01">
-                <span></span>
+                <span><GoLightBulb /></span>
                 <p>easy taxi booking</p>
             </div>
             <div className="line01">
-                <span></span>
+                <span><IoPricetagsOutline /></span>
                 <p>check the rate in real time</p>
             </div>
             <div className="line01">
-                <span></span>
+                <span><CiLocationOn /></span>
                 <p>calculate the trip mileage</p>
             </div>
           </div>

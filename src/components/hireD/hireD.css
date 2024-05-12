@@ -1,0 +1,151 @@
+#hireD{
+    width: 100%;
+}
+
+.hireD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top>span{
+    font-size: 1.6em;
+    color: #ffc400;
+    text-transform: uppercase;
+}
+.top>h1{
+    font-size: 3.5em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.selection{
+    gap: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.selection>button{
+    text-transform: uppercase;
+    border: solid 1px #00000021;
+    border-radius: 3px;
+    font-size: .8em;
+    padding: 5px 25px;
+    background-color: #fff;
+}
+
+.selection>button:hover{
+    background-color: #eec831;
+    color: #fff;
+}
+
+.drivers{
+    display: flex;
+    padding-block: 40px;
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.driverCard{
+    box-shadow: 0px 1px 2px 1px #7c7c7c18;
+}
+
+.driverCard>img{
+    width: 340px;
+}
+
+.name_and_rate{
+    padding-block: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #0000001d;
+    background-color: #fff;
+}
+
+.name_and_rate>p{
+    padding-block: 15px;
+    font-weight: 700;
+    font-size: .95em;
+    text-transform: capitalize;
+}
+
+.rating>span{
+    color: #eea931;
+    font-size: .8em;
+}
+
+
+.otherDetails{
+    padding-block: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.city{
+    text-transform: capitalize;
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.city>span{
+    font-weight: 800;
+    font-size: .9em;
+}
+
+
+.city>small{
+    font-size: .75em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+    .top>span{
+        font-size: 1em;
+    }
+    .top>h1{
+        font-size: 2em;
+    }
+    
+    .selection{
+        padding: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .selection>button{
+        font-size: .7em;
+    }
+ 
+    .drivers{
+        padding-block: 40px;
+        gap: 35px;
+    }
+    
+    .driverCard{
+        box-shadow: 0px 3px 2px 3px #7c7c7c18;
+    }
+    
+    .driverCard>img{
+        width: 330px;
+    }
+    
+    .name_and_rate{
+        padding-block: 20px;
+    }
+    
+}

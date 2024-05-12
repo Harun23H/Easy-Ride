@@ -1,5 +1,9 @@
  import pointer from '../../Assets/sectionTwoImage.png'
  import car from '../../Assets/luxuryblueCar.png'
+ import "./sectionTwo.css"
+
+
+
  export function SectionTwo(){
     return(
         <section id="sectionTwo">

@@ -1,3 +1,11 @@
+import "./header.css"
+import { PiSignOutLight } from "react-icons/pi";
+import { MdOutlineDateRange } from "react-icons/md";
+import { FaCarRear } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+
+
+
 function Header() {
   return (
     <header id="header_cont">
@@ -11,7 +19,7 @@ function Header() {
               <div className="formInfo">
                 <div className="starting">
                   <label>
-                    <span>G</span>
+                    <span><PiSignOutLight /></span>
                   </label>
                   <input
                     type="text"
@@ -22,7 +30,7 @@ function Header() {
                 </div>
                 <div className="starting">
                   <label>
-                    <span>G</span>
+                    <span><PiSignOutLight /></span>
                   </label>
                   <input
                     type="text"
@@ -33,13 +41,13 @@ function Header() {
                 </div>
                 <div className="starting">
                   <label>
-                    <span>G</span>
+                    <span><MdOutlineDateRange /></span>
                   </label>
                   <input type="datetime-local" name="Date" id="Date-and-Time" />
                 </div>
                 <div className="starting">
                   <label>
-                    <span>G</span>
+                    <span><FaCarRear /></span>
                   </label>
                   <select name="select" id="select">
                     <option value="">Select Car Type</option>
@@ -53,7 +61,7 @@ function Header() {
                 </div>
                 <div className="starting">
                   <label>
-                    <span>G</span>
+                    <span><FaPhoneAlt /></span>
                   </label>
                   <input type="number" placeholder="your number" id="number" />
                 </div>

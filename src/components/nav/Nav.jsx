@@ -1,4 +1,9 @@
 import logo from '../../Assets/logo.png'
+import "./nav.css"
+
+
+
+
 const Nav = () =>{
     return(
         <nav>
