@@ -184,6 +184,8 @@ form {
   
   .starting > input::placeholder {
     font-size: 1em;
+    font-weight: 700;
+    opacity: .7;
   }
   
   .formInfo > button {
