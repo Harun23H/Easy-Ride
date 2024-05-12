@@ -91,7 +91,7 @@ form {
 }
 
 .starting > input::placeholder {
-  font-size: 0.8em;
+  font-size: .8em;
   text-transform: uppercase;
   color: #000000b4;
 }
@@ -183,7 +183,7 @@ form {
   }
   
   .starting > input::placeholder {
-    font-size: 0.75em;
+    font-size: 1em;
   }
   
   .formInfo > button {
