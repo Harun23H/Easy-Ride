@@ -20,6 +20,7 @@
 
 .inputCont>input{
     display: block;
+    outline: none;
     width: 550px;
     padding: 25px 25px;
     border-radius: 3px;
@@ -72,6 +73,7 @@
     #newletters{
         width: 100%;
         margin-block: 50px;
+        padding: 0 10px;
     }
     
     .newletters{

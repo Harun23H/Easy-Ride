@@ -115,6 +115,11 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px){
+    #hireD{
+        padding-block: 10px;
+    }
+    
+    
     .top>span{
         font-size: 1em;
     }
